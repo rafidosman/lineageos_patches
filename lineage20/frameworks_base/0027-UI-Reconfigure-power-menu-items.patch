@@ -19,11 +19,11 @@ index 8bd2f7aaad07..a2df7afe944c 100644
 -        <item>emergency</item>
 -        <item>lockdown</item>
          <item>power</item>
--        <item>restart</item>
+         <item>restart</item>
 -        <item>logout</item>
--        <item>screenshot</item>
+         <item>screenshot</item>
 -        <item>bugreport</item>
-+        <item>restart</item>
++        <item>airplane</item>
      </string-array>
  
      <!-- Number of milliseconds to hold a wake lock to ensure that drawing is fully
