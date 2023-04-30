@@ -14,4 +14,5 @@ for project_name in $(cd /home/fido/lineageos20/build/patches/lineage20; echo */
 done
 
 # Return to source rootdir
-croot
+# croot
+echo "patches completed"
