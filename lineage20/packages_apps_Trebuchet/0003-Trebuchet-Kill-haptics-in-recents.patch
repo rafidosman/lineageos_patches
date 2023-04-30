@@ -1,7 +1,7 @@
 From 3b51af674b9aa916e86fcfe0034ba3dfc0359ae1 Mon Sep 17 00:00:00 2001
 From: Andy CrossGate Yan <GeForce8800Ultra@gmail.com>
 Date: Fri, 18 Mar 2022 08:42:18 +0000
-Subject: [PATCH 2/2] Trebuchet: Kill haptics in recents
+Subject: [PATCH 3/6] Trebuchet: Kill haptics in recents
 
 This partially reverts commit cc5c8843dfebfa92057b6ce8904ac58cd05ffaef.
 

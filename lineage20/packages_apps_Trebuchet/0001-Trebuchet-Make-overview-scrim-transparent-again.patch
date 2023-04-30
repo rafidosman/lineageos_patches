@@ -1,7 +1,7 @@
 From 1f218b4e6572822d99ec46c1bfd65e7ff023c0d3 Mon Sep 17 00:00:00 2001
 From: Andy CrossGate Yan <GeForce8800Ultra@gmail.com>
 Date: Thu, 28 Oct 2021 02:30:59 +0000
-Subject: [PATCH 1/2] Trebuchet: Make overview scrim transparent again
+Subject: [PATCH 1/6] Trebuchet: Make overview scrim transparent again
 
 Also revert texts/buttons to workspace color
 
