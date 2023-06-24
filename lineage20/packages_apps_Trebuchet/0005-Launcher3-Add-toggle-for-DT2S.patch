@@ -1,7 +1,7 @@
 From 68c61a5466b3f754ba1415d13189ed771dd644b2 Mon Sep 17 00:00:00 2001
 From: DennySPB <dennyspb@gmail.com>
 Date: Fri, 27 Sep 2019 15:21:57 +0300
-Subject: [PATCH 5/6] Launcher3: Add toggle for DT2S
+Subject: [PATCH 2/4] Launcher3: Add toggle for DT2S
 
 commit 39fa8b063cf682771c1800a2391689f96808218f
 Author: Omkar Chandorkar <gotenksIN@aosip.dev>
