@@ -34,9 +34,9 @@ index c00e1e98b..490d15215 100755
  fi
  
  echo "ro.lineage.device=$LINEAGE_DEVICE"
-+echo "ro.lineage.version=LineageOS 20 Self-built CGMod"
-+echo "ro.lineage.display.version=LineageOS 20 Self-built CGMod"
-+echo "ro.modversion=LineageOS 20 Self-built CGMod"
++echo "ro.lineage.version=LineageOS 20 Modded"
++echo "ro.lineage.display.version=LineageOS 20 Modded"
++echo "ro.modversion=LineageOS 20 Modded"
 +
 +echo "lockscreen.rot_override=true"
  
