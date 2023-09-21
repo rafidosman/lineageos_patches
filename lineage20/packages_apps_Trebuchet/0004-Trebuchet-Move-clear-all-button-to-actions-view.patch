@@ -1,9 +1,9 @@
-From 316e6779dde5db01258fcf5139e1d4a33933b114 Mon Sep 17 00:00:00 2001
+From c3c4d801099bab0bb9f3759f7431cd366ab6eb67 Mon Sep 17 00:00:00 2001
 From: Vachounet <vachounet@live.fr>
 Date: Mon, 26 Oct 2020 17:05:18 +0100
-Subject: [PATCH] Trebuchet: Move clear all button to actions view
+Subject: [PATCH 4/4] Trebuchet: Move clear all button to actions view
 
-@AndyCGYan: Instead of removing the original, hide it in a simple way
+[AndyCGYan: Instead of removing the original, hide it in a simple way]
 
 Change-Id: I7a0b2729c163169f7606ad4644870d07d5165e8e
 ---
@@ -86,10 +86,10 @@ index 8b5f091e11..601021b5bf 100644
  
      /**
 diff --git a/quickstep/src/com/android/quickstep/views/LauncherRecentsView.java b/quickstep/src/com/android/quickstep/views/LauncherRecentsView.java
-index 6c27587058..dbaf180e68 100644
+index c165accc52..d9b1da5cfe 100644
 --- a/quickstep/src/com/android/quickstep/views/LauncherRecentsView.java
 +++ b/quickstep/src/com/android/quickstep/views/LauncherRecentsView.java
-@@ -143,8 +143,7 @@ public class LauncherRecentsView extends RecentsView<QuickstepLauncher, Launcher
+@@ -151,8 +151,7 @@ public class LauncherRecentsView extends RecentsView<QuickstepLauncher, Launcher
          super.setOverviewStateEnabled(enabled);
          if (enabled) {
              LauncherState state = mActivity.getStateManager().getState();
@@ -100,7 +100,7 @@ index 6c27587058..dbaf180e68 100644
          }
          if (mActivity.getDesktopVisibilityController() != null) {
 diff --git a/quickstep/src/com/android/quickstep/views/RecentsView.java b/quickstep/src/com/android/quickstep/views/RecentsView.java
-index 5e645ea917..0dc0b3b62e 100644
+index 904537fddf..9222e456e5 100644
 --- a/quickstep/src/com/android/quickstep/views/RecentsView.java
 +++ b/quickstep/src/com/android/quickstep/views/RecentsView.java
 @@ -117,6 +117,7 @@ import android.view.ViewTreeObserver.OnScrollChangedListener;
@@ -111,7 +111,7 @@ index 5e645ea917..0dc0b3b62e 100644
  import android.widget.ListView;
  import android.widget.OverScroller;
  import android.widget.Toast;
-@@ -472,6 +473,7 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
+@@ -478,6 +479,7 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
      private final RecentsModel mModel;
      private final int mSplitPlaceholderSize;
      private final int mSplitPlaceholderInset;
@@ -119,7 +119,7 @@ index 5e645ea917..0dc0b3b62e 100644
      private final ClearAllButton mClearAllButton;
      private final Rect mClearAllButtonDeadZoneRect = new Rect();
      private final Rect mTaskViewDeadZoneRect = new Rect();
-@@ -976,6 +978,8 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
+@@ -997,6 +999,8 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
          mActionsView = actionsView;
          mActionsView.updateHiddenFlags(HIDDEN_NO_TASKS, getTaskViewCount() == 0);
          mSplitSelectStateController = splitController;
@@ -128,7 +128,7 @@ index 5e645ea917..0dc0b3b62e 100644
      }
  
      public SplitSelectStateController getSplitSelectController() {
-@@ -1342,7 +1346,7 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
+@@ -1314,7 +1318,7 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
       * button fully visible, center page is Clear All button.
       */
      public boolean isClearAllHidden() {
@@ -138,5 +138,5 @@ index 5e645ea917..0dc0b3b62e 100644
  
      @Override
 -- 
-2.34.1
+2.41.0
 
