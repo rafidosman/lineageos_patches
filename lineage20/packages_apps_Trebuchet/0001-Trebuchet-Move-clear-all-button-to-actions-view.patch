@@ -1,7 +1,7 @@
 From 316e6779dde5db01258fcf5139e1d4a33933b114 Mon Sep 17 00:00:00 2001
 From: Vachounet <vachounet@live.fr>
 Date: Mon, 26 Oct 2020 17:05:18 +0100
-Subject: [PATCH 2/6]  Trebuchet: Move clear all button to actions view
+Subject: [PATCH] Trebuchet: Move clear all button to actions view
 
 @AndyCGYan: Instead of removing the original, hide it in a simple way
 

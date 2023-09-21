@@ -1,7 +1,7 @@
-From 232831de490195aea89768961bf84b31dcf9eea7 Mon Sep 17 00:00:00 2001
+From c86dc3b399fb06aa72c1efc6879fa42a278cef4e Mon Sep 17 00:00:00 2001
 From: kubersharma001 <kubersharma001@gmail.com>
 Date: Sat, 24 Oct 2020 20:31:06 +0200
-Subject: [PATCH 4/4] Launcher3: power-off -> screen-off
+Subject: [PATCH 3/4] Launcher3: power-off -> screen-off
 
 Change-Id: I7ca7c2447ccac40a22adad34d717cdd177412b08
 ---
@@ -20,5 +20,5 @@ index 2c245edbc9..081caad2b7 100644
 +    <string name="pref_dt_gesture_summary">Double tap on empty space for screen-off</string>
  </resources>
 -- 
-2.40.0
+2.41.0
 
